@@ -11,12 +11,9 @@
   --accent-font-weight: 715;
   --background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px), repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px), linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 
-  --header-margin: clamp(6.125rem, 5.8404rem + 0.6826vw, 6.25rem); 
-  --header-padding: clamp(7.5rem, 7.2831rem + 0.9355vw, 8.125rem);
-  --header-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-  --header-inline-size: clamp(375px, 30.52vw + 260.55px, 700px);
-  --width-card: clamp(23.1875rem, 0rem + 100vw, 43.75rem);
-  --width-img: clamp(23.1875rem, 16.0352rem + 30.5164vw, 43.5rem);
-  --card-title-padding: clamp(4px, calc(2.86px + 0.307vw), 5px)10px;
+  --header-padding-block: clamp(7.625rem, 7.048rem + 2.46vw, 8.125rem);
+  --header-padding-inline: clamp(1rem, -6.681rem + 32.77vw, 7.656rem);
+  --header-logo-size: clamp(3.063rem, 1.909rem + 4.92vw, 4.063rem);
+  --header-title-size: clamp(0.875rem, 0.226rem + 2.77vw, 1.438rem);
+  --width-card: clamp(375px, 260.56px + 30vw, 700px);
 }
